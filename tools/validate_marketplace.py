@@ -2,7 +2,7 @@
 """市场仓库校验器(本地与 CI 共用)。
 
   1. .claude-plugin/marketplace.json 可解析,插件名唯一,source 目录存在
-  2. 每个插件 .zcode-plugin/plugin.json: name == 目录名,version 为语义化版本且与目录项一致,skills 目录非空
+  2. 每个插件 .zcode-plugin/plugin.json: name == 目录名,version 为语义化版本且与目录项一致,skills 目录非空,插件级 LICENSE 存在
   3. 每个 skills/<d>/SKILL.md: frontmatter name == d;description 非空、≤1024(>500 警告)
   4. skill 名跨插件不重复(警告)
   5. Markdown 相对链接可解析
@@ -18,6 +18,7 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 SEMVER = re.compile(r'^\d+\.\d+\.\d+$')
 LINK_RE = re.compile(r'\[[^\]]*\]\(([^)\s]+)\)')
+FM_RE = re.compile(r'\A---\s*\n(.*?)\n---\s*\n', re.S)
 FAILS: list[str] = []
 WARNS: list[str] = []
 
@@ -54,6 +55,8 @@ def main() -> int:
             FAILS.append(f'[plugin] {name}: version 非语义化版本 {m.get("version")!r}')
         if m.get('version') != e.get('version'):
             FAILS.append(f'[plugin] {name}: 清单 version {m.get("version")} 与目录项 {e.get("version")} 不一致')
+        if not (src / 'LICENSE').exists():
+            FAILS.append(f'[plugin] {name}: 缺少插件级 LICENSE')
         skills_dir = src / str(m.get('skills', 'skills'))
         skill_dirs = sorted(d for d in skills_dir.iterdir() if d.is_dir()) if skills_dir.is_dir() else []
         if not skill_dirs:
@@ -63,7 +66,11 @@ def main() -> int:
             if not sm.exists():
                 FAILS.append(f'[skill] {name}/{d.name}: 缺少 SKILL.md')
                 continue
-            fm = yaml.safe_load(sm.read_text(encoding='utf-8').split('---')[1]) or {}
+            fm_m = FM_RE.match(sm.read_text(encoding='utf-8'))
+            if not fm_m:
+                FAILS.append(f'[skill] {name}/{d.name}: SKILL.md 缺少 frontmatter')
+                continue
+            fm = yaml.safe_load(fm_m.group(1)) or {}
             if fm.get('name') != d.name:
                 FAILS.append(f'[skill] {name}/{d.name}: name={fm.get("name")!r} 与目录名不一致')
             desc = fm.get('description')

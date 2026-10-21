@@ -22,7 +22,7 @@ def main() -> int:
         '',
         '## 安装(ZCode)',
         '',
-        '1. **Plugin Marketplace → Add → Add Plugin Marketplace**,粘贴 `Fen9pi-Max/ai-era-software-engineering-skills`(或本地克隆目录)并添加;',
+        '1. **Plugin Marketplace → Add → Add Plugin Marketplace**,粘贴仓库地址 `https://github.com/Fen9pi-Max/ai-era-software-engineering-skills`(或先克隆到本地,粘贴克隆目录)并添加;',
         '2. 在 **Personal → ai-era-software-engineering-skills** 下按需 **Install** 插件(建议只装用得上的主题,避免技能列表膨胀);',
         '3. 新任务里从输入框的 skill 选择器选用,或直接描述场景由 agent 按触发条件调用。已安装插件在 **Settings → Plugins** 管理。',
         '',

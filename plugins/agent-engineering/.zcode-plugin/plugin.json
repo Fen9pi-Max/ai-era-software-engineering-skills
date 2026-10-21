@@ -1,11 +1,22 @@
 {
   "name": "agent-engineering",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "企业级 AI agent 工程的 22 项原子能力(阿里云 AI Agent 手册蒸馏)。",
   "author": {
     "name": "Fen9pi-Max",
     "url": "https://github.com/Fen9pi-Max"
   },
   "license": "Apache-2.0",
+  "homepage": "https://github.com/Fen9pi-Max/ai-era-software-engineering-skills",
+  "repository": "https://github.com/Fen9pi-Max/ai-era-software-engineering-skills",
+  "keywords": [
+    "ai-agent",
+    "agent-infra",
+    "llm",
+    "context-engineering",
+    "observability",
+    "agent 工程",
+    "智能体"
+  ],
   "skills": "skills"
 }

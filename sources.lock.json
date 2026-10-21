@@ -2,197 +2,197 @@
   "testing-methodology": {
     "beautiful-testing": {
       "repo": "https://github.com/Fen9pi-Max/beautiful-testing-skill",
-      "commit": "276bc62",
+      "commit": "276bc62ffcf909f4de7271f13794c89dc1f60245",
       "path": "beautiful-testing"
     },
     "fuzzing-testing": {
       "repo": "https://github.com/Fen9pi-Max/beautiful-testing-skill",
-      "commit": "276bc62",
+      "commit": "276bc62ffcf909f4de7271f13794c89dc1f60245",
       "path": "fuzzing-testing"
     },
     "mutation-testing": {
       "repo": "https://github.com/Fen9pi-Max/beautiful-testing-skill",
-      "commit": "276bc62",
+      "commit": "276bc62ffcf909f4de7271f13794c89dc1f60245",
       "path": "mutation-testing"
     },
     "performance-testing-collaboration": {
       "repo": "https://github.com/Fen9pi-Max/beautiful-testing-skill",
-      "commit": "276bc62",
+      "commit": "276bc62ffcf909f4de7271f13794c89dc1f60245",
       "path": "performance-testing-collaboration"
     },
     "slime-efficient-testing": {
       "repo": "https://github.com/Fen9pi-Max/beautiful-testing-skill",
-      "commit": "276bc62",
+      "commit": "276bc62ffcf909f4de7271f13794c89dc1f60245",
       "path": "slime-efficient-testing"
     },
     "stakeholder-test-metrics": {
       "repo": "https://github.com/Fen9pi-Max/beautiful-testing-skill",
-      "commit": "276bc62",
+      "commit": "276bc62ffcf909f4de7271f13794c89dc1f60245",
       "path": "stakeholder-test-metrics"
     },
     "test-case-effectiveness": {
       "repo": "https://github.com/Fen9pi-Max/beautiful-testing-skill",
-      "commit": "276bc62",
+      "commit": "276bc62ffcf909f4de7271f13794c89dc1f60245",
       "path": "test-case-effectiveness"
     },
     "charter-session-design": {
       "repo": "https://github.com/Fen9pi-Max/exploratory-testing-skill",
-      "commit": "dc08b12",
+      "commit": "dc08b120fa168e57f90c7907e4b752d98123a288",
       "path": "charter-session-design"
     },
     "deep-observation-testability": {
       "repo": "https://github.com/Fen9pi-Max/exploratory-testing-skill",
-      "commit": "dc08b12",
+      "commit": "dc08b120fa168e57f90c7907e4b752d98123a288",
       "path": "deep-observation-testability"
     },
     "entity-crud-exploration": {
       "repo": "https://github.com/Fen9pi-Max/exploratory-testing-skill",
-      "commit": "dc08b12",
+      "commit": "dc08b120fa168e57f90c7907e4b752d98123a288",
       "path": "entity-crud-exploration"
     },
     "exploratory-testing": {
       "repo": "https://github.com/Fen9pi-Max/exploratory-testing-skill",
-      "commit": "dc08b12",
+      "commit": "dc08b120fa168e57f90c7907e4b752d98123a288",
       "path": "exploratory-testing"
     },
     "intermittent-bug-hunting": {
       "repo": "https://github.com/Fen9pi-Max/exploratory-testing-skill",
-      "commit": "dc08b12",
+      "commit": "dc08b120fa168e57f90c7907e4b752d98123a288",
       "path": "intermittent-bug-hunting"
     },
     "oracle-strategies": {
       "repo": "https://github.com/Fen9pi-Max/exploratory-testing-skill",
-      "commit": "dc08b12",
+      "commit": "dc08b120fa168e57f90c7907e4b752d98123a288",
       "path": "oracle-strategies"
     },
     "state-model-exploration": {
       "repo": "https://github.com/Fen9pi-Max/exploratory-testing-skill",
-      "commit": "dc08b12",
+      "commit": "dc08b120fa168e57f90c7907e4b752d98123a288",
       "path": "state-model-exploration"
     },
     "test-heuristics-cheatsheet": {
       "repo": "https://github.com/Fen9pi-Max/exploratory-testing-skill",
-      "commit": "dc08b12",
+      "commit": "dc08b120fa168e57f90c7907e4b752d98123a288",
       "path": "test-heuristics-cheatsheet"
     },
     "effective-software-testing": {
       "repo": "https://github.com/Fen9pi-Max/effective-software-testing-skill",
-      "commit": "0b78ead",
+      "commit": "fe4e8a5a23ac50bf5a3225267d9b92e825b7bc79",
       "path": "."
     },
     "kym-cidtestd": {
       "repo": "https://github.com/Fen9pi-Max/pirate-testing-mfqppdcs-skill",
-      "commit": "ea0af3e",
+      "commit": "ea0af3e4996c3e966ee255476820c9ccf90ccc2c",
       "path": "kym-cidtestd"
     },
     "mfq-analysis-views": {
       "repo": "https://github.com/Fen9pi-Max/pirate-testing-mfqppdcs-skill",
-      "commit": "ea0af3e",
+      "commit": "ea0af3e4996c3e966ee255476820c9ccf90ccc2c",
       "path": "mfq-analysis-views"
     },
     "modeling-workflow": {
       "repo": "https://github.com/Fen9pi-Max/pirate-testing-mfqppdcs-skill",
-      "commit": "ea0af3e",
+      "commit": "ea0af3e4996c3e966ee255476820c9ccf90ccc2c",
       "path": "modeling-workflow"
     },
     "pirate-testing-mfqppdcs": {
       "repo": "https://github.com/Fen9pi-Max/pirate-testing-mfqppdcs-skill",
-      "commit": "ea0af3e",
+      "commit": "ea0af3e4996c3e966ee255476820c9ccf90ccc2c",
       "path": "pirate-testing-mfqppdcs"
     },
     "ppdcs-model-selection": {
       "repo": "https://github.com/Fen9pi-Max/pirate-testing-mfqppdcs-skill",
-      "commit": "ea0af3e",
+      "commit": "ea0af3e4996c3e966ee255476820c9ccf90ccc2c",
       "path": "ppdcs-model-selection"
     },
     "tco-coverage-outline": {
       "repo": "https://github.com/Fen9pi-Max/pirate-testing-mfqppdcs-skill",
-      "commit": "ea0af3e",
+      "commit": "ea0af3e4996c3e966ee255476820c9ccf90ccc2c",
       "path": "tco-coverage-outline"
     },
     "test-design-4steps": {
       "repo": "https://github.com/Fen9pi-Max/pirate-testing-mfqppdcs-skill",
-      "commit": "ea0af3e",
+      "commit": "ea0af3e4996c3e966ee255476820c9ccf90ccc2c",
       "path": "test-design-4steps"
     },
     "automation-decision-checklist": {
       "repo": "https://github.com/Fen9pi-Max/automation-testing-best-practices-skill",
-      "commit": "4a74a62",
+      "commit": "4a74a629783bd461e8a6cf07e5fcc6dc59864377",
       "path": "automation-decision-checklist"
     },
     "automation-testing-best-practices": {
       "repo": "https://github.com/Fen9pi-Max/automation-testing-best-practices-skill",
-      "commit": "4a74a62",
+      "commit": "4a74a629783bd461e8a6cf07e5fcc6dc59864377",
       "path": "automation-testing-best-practices"
     },
     "pilot-project-methodology": {
       "repo": "https://github.com/Fen9pi-Max/automation-testing-best-practices-skill",
-      "commit": "4a74a62",
+      "commit": "4a74a629783bd461e8a6cf07e5fcc6dc59864377",
       "path": "pilot-project-methodology"
     },
     "results-verification-defense": {
       "repo": "https://github.com/Fen9pi-Max/automation-testing-best-practices-skill",
-      "commit": "4a74a62",
+      "commit": "4a74a629783bd461e8a6cf07e5fcc6dc59864377",
       "path": "results-verification-defense"
     },
     "roi-evaluation": {
       "repo": "https://github.com/Fen9pi-Max/automation-testing-best-practices-skill",
-      "commit": "4a74a62",
+      "commit": "4a74a629783bd461e8a6cf07e5fcc6dc59864377",
       "path": "roi-evaluation"
     },
     "testware-architecture": {
       "repo": "https://github.com/Fen9pi-Max/automation-testing-best-practices-skill",
-      "commit": "4a74a62",
+      "commit": "4a74a629783bd461e8a6cf07e5fcc6dc59864377",
       "path": "testware-architecture"
     },
     "how-google-tests-software": {
       "repo": "https://github.com/Fen9pi-Max/how-google-tests-software-skill",
-      "commit": "b80dbd1",
+      "commit": "b80dbd100b9af48389ed87261935d5a795fad17e",
       "path": "."
     }
   },
   "legacy-code-craft": {
     "beyond-legacy-code": {
       "repo": "https://github.com/Fen9pi-Max/beyond-legacy-code-skill",
-      "commit": "dd86dd4",
+      "commit": "dd86dd4cb27e55af29f5a303b1b099ae294fa702",
       "path": "."
     }
   },
   "agent-engineering": {
     "ai-agent-infra": {
       "repo": "https://github.com/Fen9pi-Max/ai-agent-infra",
-      "commit": "d147b32",
+      "commit": "d147b324d2e85672be1d96a1ede5046060f2a2de",
       "path": "."
     }
   },
   "engineering-management": {
     "cybernetic-project-management": {
       "repo": "https://github.com/Fen9pi-Max/cybernetic-project-management",
-      "commit": "f7a14b9",
+      "commit": "3e1ccbd5662e2ee1b3c5c4537d9c8e6566fd6009",
       "path": "."
     },
     "small-team-management": {
       "repo": "https://github.com/Fen9pi-Max/small-team-management-skill",
-      "commit": "1a397b3",
+      "commit": "1a397b399900b15521541b76490713f906e675d0",
       "path": "."
     },
     "p9-work-methods": {
       "repo": "https://github.com/Fen9pi-Max/p9-work-methods-skill",
-      "commit": "fb7d97d",
+      "commit": "fb7d97db25a994f5f2de969d9975ae4a7b59b505",
       "path": "."
     }
   },
   "security-testing": {
     "pentest-practice": {
       "repo": "https://github.com/Fen9pi-Max/pentest-skill",
-      "commit": "91a9f26",
+      "commit": "91a9f26973f6fec1d106b6733b7ec6d2cca96435",
       "path": "."
     }
   },
   "product-thinking": {
     "yujun-product-methodology": {
       "repo": "https://github.com/Fen9pi-Max/yujun-product-methodology-skill",
-      "commit": "b25936c",
+      "commit": "19072c5bf4bfb2aba95edb186eef7eedb1eed329",
       "path": "."
     }
   }

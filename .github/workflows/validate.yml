@@ -14,5 +14,21 @@ jobs:
         with:
           python-version: "3.11"
       - run: pip install pyyaml
-      - name: Validate marketplace (catalog / manifests / skill naming / descriptions / links)
+      - name: Structure (catalog / manifests / skill naming / descriptions / licenses / links)
         run: python3 tools/validate_marketplace.py
+
+  drift:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install pyyaml
+      - name: plugins/ must equal a fresh materialization of the pinned sources
+        run: python3 tools/sync_sources.py --check
+      - name: Generated files (manifests / LICENSE / README) must be up to date
+        run: |
+          python3 tools/build_manifests.py
+          python3 tools/build_readme.py
+          git diff --exit-code -- .claude-plugin plugins/*/.zcode-plugin plugins/*/LICENSE README.md

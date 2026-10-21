@@ -1,11 +1,23 @@
 {
   "name": "legacy-code-craft",
-  "version": "1.0.0",
-  "description": "《修改软件的艺术》9 条实践,已做 AI agent 编程适配(agent 写码、人审码):小批次、TDD 节奏、重构安全网、技术债偿还。",
+  "version": "1.1.0",
+  "description": "《修改软件的艺术》9 条最佳实践蒸馏的 10 张能力卡,已做 AI agent 编程适配(agent 写码、人审码):小批次、TDD 节奏、重构安全网、技术债偿还。",
   "author": {
     "name": "Fen9pi-Max",
     "url": "https://github.com/Fen9pi-Max"
   },
   "license": "MIT",
+  "homepage": "https://github.com/Fen9pi-Max/ai-era-software-engineering-skills",
+  "repository": "https://github.com/Fen9pi-Max/ai-era-software-engineering-skills",
+  "keywords": [
+    "legacy-code",
+    "refactoring",
+    "tdd",
+    "technical-debt",
+    "ai-coding",
+    "遗留代码",
+    "重构",
+    "技术债"
+  ],
   "skills": "skills"
 }

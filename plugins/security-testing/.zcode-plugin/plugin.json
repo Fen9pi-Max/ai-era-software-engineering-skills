@@ -1,11 +1,20 @@
 {
   "name": "security-testing",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "授权渗透测试五阶段方法论(Web 与系统目标)。",
   "author": {
     "name": "Fen9pi-Max",
     "url": "https://github.com/Fen9pi-Max"
   },
   "license": "MIT",
+  "homepage": "https://github.com/Fen9pi-Max/ai-era-software-engineering-skills",
+  "repository": "https://github.com/Fen9pi-Max/ai-era-software-engineering-skills",
+  "keywords": [
+    "penetration-testing",
+    "security",
+    "authorized-testing",
+    "渗透测试",
+    "安全测试"
+  ],
   "skills": "skills"
 }

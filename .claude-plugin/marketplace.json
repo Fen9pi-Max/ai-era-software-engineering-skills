@@ -1,6 +1,6 @@
 {
   "name": "ai-era-software-engineering-skills",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Software-engineering skills for the AI-agent era: testing, legacy code, agent engineering, engineering management, security testing and product thinking, distilled from classic books via cangjie-skill.",
   "description_i18n": {
     "en": "Software-engineering skills for the AI-agent era: testing, legacy code, agent engineering, engineering management, security testing and product thinking, distilled from classic books via cangjie-skill.",
@@ -14,7 +14,7 @@
     {
       "name": "testing-methodology",
       "source": "./plugins/testing-methodology",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "description": "Testing methodology skills distilled from six classics: Explore It!, Beautiful Testing, Effective Software Testing, How Google Tests Software, MFQ&PPDCS test analysis and design, and automation testing best practices.",
       "description_i18n": {
         "en": "Testing methodology skills distilled from six classics: Explore It!, Beautiful Testing, Effective Software Testing, How Google Tests Software, MFQ&PPDCS test analysis and design, and automation testing best practices.",
@@ -25,28 +25,48 @@
         "en": "Testing Methodology",
         "zh-CN": "测试方法论"
       },
-      "category": "developer-tools"
+      "category": "developer-tools",
+      "keywords": [
+        "testing",
+        "exploratory-testing",
+        "test-design",
+        "test-automation",
+        "mutation-testing",
+        "测试",
+        "探索式测试",
+        "自动化测试"
+      ]
     },
     {
       "name": "legacy-code-craft",
       "source": "./plugins/legacy-code-craft",
-      "version": "1.0.0",
-      "description": "The nine practices from Beyond Legacy Code, adapted for AI-agent programming (agents write, humans review): small batches, TDD rhythm, refactoring safety nets, technical debt.",
+      "version": "1.1.0",
+      "description": "Ten capability cards distilled from the nine practices of Beyond Legacy Code, adapted for AI-agent programming (agents write, humans review): small batches, TDD rhythm, refactoring safety nets, technical debt.",
       "description_i18n": {
-        "en": "The nine practices from Beyond Legacy Code, adapted for AI-agent programming (agents write, humans review): small batches, TDD rhythm, refactoring safety nets, technical debt.",
-        "zh-CN": "《修改软件的艺术》9 条实践,已做 AI agent 编程适配(agent 写码、人审码):小批次、TDD 节奏、重构安全网、技术债偿还。"
+        "en": "Ten capability cards distilled from the nine practices of Beyond Legacy Code, adapted for AI-agent programming (agents write, humans review): small batches, TDD rhythm, refactoring safety nets, technical debt.",
+        "zh-CN": "《修改软件的艺术》9 条最佳实践蒸馏的 10 张能力卡,已做 AI agent 编程适配(agent 写码、人审码):小批次、TDD 节奏、重构安全网、技术债偿还。"
       },
       "displayName": "Legacy Code Craft",
       "displayName_i18n": {
         "en": "Legacy Code Craft",
         "zh-CN": "遗留代码与代码质量"
       },
-      "category": "developer-tools"
+      "category": "developer-tools",
+      "keywords": [
+        "legacy-code",
+        "refactoring",
+        "tdd",
+        "technical-debt",
+        "ai-coding",
+        "遗留代码",
+        "重构",
+        "技术债"
+      ]
     },
     {
       "name": "agent-engineering",
       "source": "./plugins/agent-engineering",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "22 atomic capabilities for enterprise AI agent engineering, distilled from an Alibaba Cloud AI Agent handbook.",
       "description_i18n": {
         "en": "22 atomic capabilities for enterprise AI agent engineering, distilled from an Alibaba Cloud AI Agent handbook.",
@@ -57,12 +77,21 @@
         "en": "Agent Engineering",
         "zh-CN": "Agent 工程"
       },
-      "category": "developer-tools"
+      "category": "developer-tools",
+      "keywords": [
+        "ai-agent",
+        "agent-infra",
+        "llm",
+        "context-engineering",
+        "observability",
+        "agent 工程",
+        "智能体"
+      ]
     },
     {
       "name": "engineering-management",
       "source": "./plugins/engineering-management",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "description": "Engineering management skills: cybernetic project management (Qian Xuesen), managing small teams of under ten (Google high-performance practices), and the P9 Work Method (technical depth, architecture and leadership).",
       "description_i18n": {
         "en": "Engineering management skills: cybernetic project management (Qian Xuesen), managing small teams of under ten (Google high-performance practices), and the P9 Work Method (technical depth, architecture and leadership).",
@@ -73,12 +102,21 @@
         "en": "Engineering Management",
         "zh-CN": "工程管理"
       },
-      "category": "developer-tools"
+      "category": "productivity",
+      "keywords": [
+        "engineering-management",
+        "project-management",
+        "team-leadership",
+        "cybernetics",
+        "工程管理",
+        "项目管理",
+        "团队管理"
+      ]
     },
     {
       "name": "security-testing",
       "source": "./plugins/security-testing",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "Authorized penetration-testing methodology in five phases, covering web and system targets.",
       "description_i18n": {
         "en": "Authorized penetration-testing methodology in five phases, covering web and system targets.",
@@ -89,12 +127,19 @@
         "en": "Security Testing",
         "zh-CN": "安全测试"
       },
-      "category": "developer-tools"
+      "category": "developer-tools",
+      "keywords": [
+        "penetration-testing",
+        "security",
+        "authorized-testing",
+        "渗透测试",
+        "安全测试"
+      ]
     },
     {
       "name": "product-thinking",
       "source": "./plugins/product-thinking",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "18 capability cards from Yu Jun's Product Methodology, adapted for AI-era productization: AI feature value, hallucination liability, token-cost pricing, AI trust.",
       "description_i18n": {
         "en": "18 capability cards from Yu Jun's Product Methodology, adapted for AI-era productization: AI feature value, hallucination liability, token-cost pricing, AI trust.",
@@ -105,7 +150,16 @@
         "en": "Product Thinking",
         "zh-CN": "产品思维"
       },
-      "category": "developer-tools"
+      "category": "productivity",
+      "keywords": [
+        "product-management",
+        "user-value",
+        "product-strategy",
+        "ai-product",
+        "产品方法论",
+        "用户价值",
+        "AI 产品"
+      ]
     }
   ]
 }

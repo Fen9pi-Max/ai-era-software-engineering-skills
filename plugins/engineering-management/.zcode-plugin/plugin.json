@@ -1,11 +1,22 @@
 {
   "name": "engineering-management",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "工程管理三书蒸馏:钱学森《工程控制论》控制论项目管理、《如何管理10人以下小团队》谷歌高绩效团队法、《P9 工作法》技术硬实力/架构力/领导力。",
   "author": {
     "name": "Fen9pi-Max",
     "url": "https://github.com/Fen9pi-Max"
   },
   "license": "MIT",
+  "homepage": "https://github.com/Fen9pi-Max/ai-era-software-engineering-skills",
+  "repository": "https://github.com/Fen9pi-Max/ai-era-software-engineering-skills",
+  "keywords": [
+    "engineering-management",
+    "project-management",
+    "team-leadership",
+    "cybernetics",
+    "工程管理",
+    "项目管理",
+    "团队管理"
+  ],
   "skills": "skills"
 }
