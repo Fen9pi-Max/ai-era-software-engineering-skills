@@ -1,0 +1,11 @@
+{
+  "name": "product-thinking",
+  "version": "1.0.0",
+  "description": "《俞军产品方法论》18 张能力卡,已做 AI 产品化适配:AI 功能价值评估、幻觉致损判责、token 成本定价、AI 信任机制。",
+  "author": {
+    "name": "Fen9pi-Max",
+    "url": "https://github.com/Fen9pi-Max"
+  },
+  "license": "MIT",
+  "skills": "skills"
+}

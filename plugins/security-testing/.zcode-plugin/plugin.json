@@ -1,0 +1,11 @@
+{
+  "name": "security-testing",
+  "version": "1.0.0",
+  "description": "授权渗透测试五阶段方法论(Web 与系统目标)。",
+  "author": {
+    "name": "Fen9pi-Max",
+    "url": "https://github.com/Fen9pi-Max"
+  },
+  "license": "MIT",
+  "skills": "skills"
+}

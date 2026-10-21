@@ -1,0 +1,11 @@
+{
+  "name": "legacy-code-craft",
+  "version": "1.0.0",
+  "description": "《修改软件的艺术》9 条实践,已做 AI agent 编程适配(agent 写码、人审码):小批次、TDD 节奏、重构安全网、技术债偿还。",
+  "author": {
+    "name": "Fen9pi-Max",
+    "url": "https://github.com/Fen9pi-Max"
+  },
+  "license": "MIT",
+  "skills": "skills"
+}

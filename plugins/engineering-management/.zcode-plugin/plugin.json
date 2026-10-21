@@ -1,0 +1,11 @@
+{
+  "name": "engineering-management",
+  "version": "1.0.0",
+  "description": "钱学森《工程控制论》蒸馏出的 13 项控制论项目管理能力。",
+  "author": {
+    "name": "Fen9pi-Max",
+    "url": "https://github.com/Fen9pi-Max"
+  },
+  "license": "MIT",
+  "skills": "skills"
+}

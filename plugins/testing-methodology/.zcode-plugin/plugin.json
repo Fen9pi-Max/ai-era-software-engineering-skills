@@ -1,0 +1,11 @@
+{
+  "name": "testing-methodology",
+  "version": "1.0.0",
+  "description": "五本测试经典蒸馏的测试方法论 skill:探索式测试(Explore It!)、Beautiful Testing、Effective Software Testing、MFQ&PPDCS 测试分析设计、自动化测试最佳实践。",
+  "author": {
+    "name": "Fen9pi-Max",
+    "url": "https://github.com/Fen9pi-Max"
+  },
+  "license": "MIT",
+  "skills": "skills"
+}

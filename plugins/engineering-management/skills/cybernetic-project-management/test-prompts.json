@@ -1,0 +1,86 @@
+{
+  "skill": "cybernetic-project-management",
+  "version": "1.0.0",
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我们项目最近缺陷越修越多，返工也很频繁，周会上大家都说还行，你帮我看看这个项目是不是有问题",
+      "expected_behavior": "触发技能，加载 stability-health-check 卡：先判缺陷/返工回路是否发散（增速 vs 修复速率），再量裕度",
+      "expected_card": "stability-health-check",
+      "notes": "正面：失控判定"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "老板要我把进度、质量、成本三个维度合成一个综合得分来考核项目组，说这样好排名，我该怎么设计这个打分公式",
+      "expected_behavior": "触发技能，加载 multi-objective-tradeoff 卡：指出加权合成单一 KPI 的失效机理（21.8），改用指标向量+帕累托集+主要矛盾",
+      "expected_card": "multi-objective-tradeoff",
+      "notes": "正面：综合 KPI 陷阱"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "我们日报数据一天好一天坏，昨天完成量掉了 30%，项目经理很紧张要启动应急，这个波动要不要处理",
+      "expected_behavior": "触发技能，加载 noise-filtering-estimation 卡：估噪声底、定平滑窗口，单点越界判噪声，2 倍噪声底才异常",
+      "expected_card": "noise-filtering-estimation",
+      "notes": "正面：噪声 vs 趋势"
+    },
+    {
+      "id": "should-trigger-04",
+      "type": "should_trigger",
+      "prompt": "距离硬性发布日期只剩 4 周了，还差大概 2 周的工作量，要不要加班冲刺，冲到什么时候收手",
+      "expected_behavior": "触发技能，加载 time-optimal-switching 卡：存在性检查 + 开关式冲刺 + 切换判据 + 终点补稳",
+      "expected_card": "time-optimal-switching",
+      "notes": "正面：赶工决策"
+    },
+    {
+      "id": "should-trigger-05",
+      "type": "should_trigger",
+      "prompt": "我们五个团队共用一个平台组件，经常互相阻塞等发布窗口，要不要把这个公共组件拆开让各团队自己管",
+      "expected_behavior": "触发技能，加载 decoupling-coordination 卡：先分耦合利弊再决定解耦/协调，不盲目完全拆分",
+      "expected_card": "decoupling-coordination",
+      "notes": "正面：多团队治理"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我写一个 Python 脚本把 Jira 的燃尽图导出到 Excel",
+      "expected_behavior": "纯技术实现问题，不触发；可正常帮写脚本但不加载能力卡",
+      "expected_card": null,
+      "notes": "诱饵：具体工具操作"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "我最近老是拖延，怎么管理好自己的时间，提高个人效率",
+      "expected_behavior": "个人效能问题（对象是个人不是系统），不触发",
+      "expected_card": null,
+      "notes": "诱饵：个人时间管理"
+    },
+    {
+      "id": "should-not-trigger-03",
+      "type": "should_not_trigger",
+      "prompt": "我们明年到底该做 AI 方向还是继续做传统业务，帮我分析一下战略方向",
+      "expected_behavior": "目标/方向设定本身，超出能力域（管逼近目标不管目标对错），不触发",
+      "expected_card": null,
+      "notes": "诱饵：战略目标设定"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "老板问这个季度项目群整体健康吗，我想用一个红黄绿加总得分来汇报",
+      "expected_behavior": "触发（项目群健康评估），但应拒绝合成单一得分：走 stability-health-check（回路+裕度）结合 multi-objective-tradeoff（向量指标），红黄绿只作分层呈现不作加权总分",
+      "expected_card": "stability-health-check",
+      "notes": "边界：健康度评估 vs 综合 KPI 的交界"
+    },
+    {
+      "id": "edge-02",
+      "type": "edge_case",
+      "prompt": "上周我们调整了开发流程，这周数据看起来更差了，要不要马上把改进措施撤回去",
+      "expected_behavior": "触发，倾向 delay-compensation 或 adaptive-self-stabilization：先看流程调整是否还在生效周期内（在途动作未兑现），再谈撤销；改进验收用偏差方向检验",
+      "expected_card": "delay-compensation",
+      "notes": "边界：改进见效延迟 vs 改进失败"
+    }
+  ]
+}

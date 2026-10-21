@@ -1,0 +1,14 @@
+# 能力索引（完整版）
+
+| capability_id | 标题 | 重要度 | 意图 | 关键词 | 能力卡 |
+|---|---|---|---|---|---|
+| cap.blc.user-story-first | 在问如何做之前先问做什么、为什么做、给谁做 | critical | 怎么写用户故事/验收标准；需求老变/客户说"不是我要的"怎么办；故事卡/需求文档该写到多细 | 用户故事、user story、验收标准、acceptance criteria、产品负责人、product owner、边界情况、Gherkin、spec 驱动、给 AI 写需求、AI 验收标准 | capabilities/user-story-first.md |
+| cap.blc.small-batches | 小批次构建:拆分故事、限制半成品、控制范围 | high | 故事/任务太大怎么拆；为什么估时总不准/任务总挂着90%；要不要限制WIP/看板怎么用；发布周期多长合适 | 小批次、拆分用户故事、story splitting、WIP、半成品、利特尔法则、Little's law、范围控制、MMF、时间盒子、AI 编程、agent 小批次、人机结对 | capabilities/small-batches.md |
+| cap.blc.continuous-integration | 持续集成:项目的心跳 | high | 集成太痛/合并冲突地狱怎么办；要不要分支/功能开关怎么用；构建要多快/构建失败怎么处理；done 的定义(完成/完整完成/完美完成) | 持续集成、continuous integration、CI、构建服务器、功能开关、feature flags、主干开发、trunk-based、版本库、definition of done、AI 编程、agent 提交、codegen 审查 | capabilities/continuous-integration.md |
+| cap.blc.collaboration-pairing | 协作:结对编程与回顾会议 | medium | 怎么推行/试行结对编程；两个人一台电脑不是浪费吗；新人怎么快速上手；回顾会议怎么开才有产出 | 结对编程、pair programming、驾驶员、领航员、driver navigator、乒乓结对、强式结对、回顾会议、retrospective、5个为什么、five whys、mob programming、围攻、人机结对、AI 结对、agent 代码走查 | capabilities/collaboration-pairing.md |
+| cap.blc.clean-code-qualities | CLEAN 五特质:评估并改善代码质量 | critical | 这段代码质量怎么样/代码评审看什么；什么是好代码/团队怎么统一质量定义；为什么我的代码难测试难修改 | CLEAN、内聚、cohesion、耦合、coupling、封装、encapsulation、自主、冗余、redundancy、DRY、上帝对象、代码质量、code quality、AI 生成代码 审查、codegen 审查、agent 代码质量 | capabilities/clean-code-qualities.md |
+| cap.blc.test-first-tdd | 测试先行:红绿重构循环 | critical | 怎么开始TDD/红绿重构怎么走；为什么测试先行/先写测试还是先写代码；TDD试行失败了(测试越写越沉重)哪里做错了；修bug怎么避免复发 | TDD、测试驱动开发、test-driven development、红绿重构、red green refactor、测试先行、行为单元、存根、stub、测试感染者、AI 生成代码 测试、agent TDD、AI 编程 | capabilities/test-first-tdd.md |
+| cap.blc.behavior-specification-tests | 用测试描述行为:判定测试数量与唯一性 | high | 该写多少单元测试/测试要写到什么程度；测试是不是写多了/重复了；边界值怎么选测试点；修完bug怎么防复发/回归测试怎么加 | 测试数量、how many tests、唯一性、边界值、boundary testing、仪表法、instrumentation、回归测试、regression、模拟对象、mock、bug是缺失的测试、agent 写测试、AI 测试数量、AI 回归测试 | capabilities/behavior-specification-tests.md |
+| cap.blc.design-last | 最后实现设计:演化式设计与意图导向编程 | high | 要不要预先设计/大设计前置还是演化设计；怎么降低圈复杂度；意图导向编程/单一抽象层次怎么做；工厂模式什么时候用/加新变体怎么不改调用方；过度设计vs欠设计/什么时候抽象 | 演化式设计、emergent design、意图导向编程、programming by intention、圈复杂度、cyclomatic complexity、工厂、factory、创建使用分离、多态、polymorphism、第二次做好、rule of three、agent 重构、AI 过度设计、AI 生成代码 抽象 | capabilities/design-last.md |
+| cap.blc.legacy-refactoring | 重构遗留代码:安全下手的程序 | critical | 祖传/遗留代码不敢动, 怎么安全修改；重构还是重写；怎么说服老板给重构时间；技术债怎么还/什么时候还；绞杀者模式/抽象分支怎么用；给老系统加新功能前要做什么准备 | 遗留代码、legacy code、重构、refactoring、图钉测试、pinning test、依赖注入、dependency injection、系统扼杀、strangler、抽象分支、branch by abstraction、技术债、technical debt、开闭原则、重写、rewrite、agent 重构、批量重构安全网、AI 遗留代码 | capabilities/legacy-refactoring.md |
+| cap.blc.measure-development-value | 度量软件开发:价值导向的7个策略 | medium | 开发团队效率怎么度量/KPI怎么定；用速度考核团队行不行；怎么论证TDD/重构/结对的收益 | 开发度量、developer metrics、缺陷密度、defect density、产生价值的时间、velocity、速度、代码行数、局部优化、ROI、AI 编程效率、agent 产出度量、AI 代码评审 | capabilities/measure-development-value.md |
