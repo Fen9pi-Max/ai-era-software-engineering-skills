@@ -30,10 +30,15 @@ SOURCES: dict[str, list[tuple[str, str]]] = {
         ('Fen9pi-Max/effective-software-testing-skill', 'single'),
         ('Fen9pi-Max/pirate-testing-mfqppdcs-skill', 'pack'),
         ('Fen9pi-Max/automation-testing-best-practices-skill', 'pack'),
+        ('Fen9pi-Max/how-google-tests-software-skill', 'single'),
     ],
     'legacy-code-craft': [('Fen9pi-Max/beyond-legacy-code-skill', 'single')],
     'agent-engineering': [('Fen9pi-Max/ai-agent-infra', 'single')],
-    'engineering-management': [('Fen9pi-Max/cybernetic-project-management', 'single')],
+    'engineering-management': [
+        ('Fen9pi-Max/cybernetic-project-management', 'single'),
+        ('Fen9pi-Max/small-team-management-skill', 'single'),
+        ('Fen9pi-Max/p9-work-methods-skill', 'single'),
+    ],
     'security-testing': [('Fen9pi-Max/pentest-skill', 'single')],
     'product-thinking': [('Fen9pi-Max/yujun-product-methodology-skill', 'single')],
 }

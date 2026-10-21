@@ -13,10 +13,10 @@ OWNER = {'name': 'Fen9pi-Max', 'url': 'https://github.com/Fen9pi-Max'}
 
 PLUGINS = [
     {
-        'name': 'testing-methodology', 'version': '1.0.0', 'license': 'MIT',
+        'name': 'testing-methodology', 'version': '1.1.0', 'license': 'MIT',
         'displayName': 'Testing Methodology', 'displayName_zh': '测试方法论',
-        'description': 'Testing methodology skills distilled from five classics: Explore It!, Beautiful Testing, Effective Software Testing, MFQ&PPDCS test analysis and design, and automation testing best practices.',
-        'description_zh': '五本测试经典蒸馏的测试方法论 skill:探索式测试(Explore It!)、Beautiful Testing、Effective Software Testing、MFQ&PPDCS 测试分析设计、自动化测试最佳实践。',
+        'description': 'Testing methodology skills distilled from six classics: Explore It!, Beautiful Testing, Effective Software Testing, How Google Tests Software, MFQ&PPDCS test analysis and design, and automation testing best practices.',
+        'description_zh': '六本测试经典蒸馏的测试方法论 skill:探索式测试(Explore It!)、Beautiful Testing、Effective Software Testing、Google 软件测试之道、MFQ&PPDCS 测试分析设计、自动化测试最佳实践。',
     },
     {
         'name': 'legacy-code-craft', 'version': '1.0.0', 'license': 'MIT',
@@ -31,10 +31,10 @@ PLUGINS = [
         'description_zh': '企业级 AI agent 工程的 22 项原子能力(阿里云 AI Agent 手册蒸馏)。',
     },
     {
-        'name': 'engineering-management', 'version': '1.0.0', 'license': 'MIT',
+        'name': 'engineering-management', 'version': '1.1.0', 'license': 'MIT',
         'displayName': 'Engineering Management', 'displayName_zh': '工程管理',
-        'description': '13 cybernetic project-management capabilities derived from Qian Xuesen\'s Engineering Cybernetics.',
-        'description_zh': '钱学森《工程控制论》蒸馏出的 13 项控制论项目管理能力。',
+        'description': 'Engineering management skills: cybernetic project management (Qian Xuesen), managing small teams of under ten (Google high-performance practices), and the P9 Work Method (technical depth, architecture and leadership).',
+        'description_zh': '工程管理三书蒸馏:钱学森《工程控制论》控制论项目管理、《如何管理10人以下小团队》谷歌高绩效团队法、《P9 工作法》技术硬实力/架构力/领导力。',
     },
     {
         'name': 'security-testing', 'version': '1.0.0', 'license': 'MIT',
@@ -78,7 +78,7 @@ def main() -> int:
         })
     catalog = {
         'name': MARKET_NAME,
-        'version': '1.0.0',
+        'version': '1.1.0',
         'description': 'Software-engineering skills for the AI-agent era: testing, legacy code, agent engineering, engineering management, security testing and product thinking, distilled from classic books via cangjie-skill.',
         'description_i18n': {
             'en': 'Software-engineering skills for the AI-agent era: testing, legacy code, agent engineering, engineering management, security testing and product thinking, distilled from classic books via cangjie-skill.',

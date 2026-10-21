@@ -144,6 +144,11 @@
       "repo": "https://github.com/Fen9pi-Max/automation-testing-best-practices-skill",
       "commit": "4a74a62",
       "path": "testware-architecture"
+    },
+    "how-google-tests-software": {
+      "repo": "https://github.com/Fen9pi-Max/how-google-tests-software-skill",
+      "commit": "b80dbd1",
+      "path": "."
     }
   },
   "legacy-code-craft": {
@@ -164,6 +169,16 @@
     "cybernetic-project-management": {
       "repo": "https://github.com/Fen9pi-Max/cybernetic-project-management",
       "commit": "f7a14b9",
+      "path": "."
+    },
+    "small-team-management": {
+      "repo": "https://github.com/Fen9pi-Max/small-team-management-skill",
+      "commit": "1a397b3",
+      "path": "."
+    },
+    "p9-work-methods": {
+      "repo": "https://github.com/Fen9pi-Max/p9-work-methods-skill",
+      "commit": "fb7d97d",
       "path": "."
     }
   },

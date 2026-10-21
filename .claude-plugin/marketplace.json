@@ -1,6 +1,6 @@
 {
   "name": "ai-era-software-engineering-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Software-engineering skills for the AI-agent era: testing, legacy code, agent engineering, engineering management, security testing and product thinking, distilled from classic books via cangjie-skill.",
   "description_i18n": {
     "en": "Software-engineering skills for the AI-agent era: testing, legacy code, agent engineering, engineering management, security testing and product thinking, distilled from classic books via cangjie-skill.",
@@ -14,11 +14,11 @@
     {
       "name": "testing-methodology",
       "source": "./plugins/testing-methodology",
-      "version": "1.0.0",
-      "description": "Testing methodology skills distilled from five classics: Explore It!, Beautiful Testing, Effective Software Testing, MFQ&PPDCS test analysis and design, and automation testing best practices.",
+      "version": "1.1.0",
+      "description": "Testing methodology skills distilled from six classics: Explore It!, Beautiful Testing, Effective Software Testing, How Google Tests Software, MFQ&PPDCS test analysis and design, and automation testing best practices.",
       "description_i18n": {
-        "en": "Testing methodology skills distilled from five classics: Explore It!, Beautiful Testing, Effective Software Testing, MFQ&PPDCS test analysis and design, and automation testing best practices.",
-        "zh-CN": "五本测试经典蒸馏的测试方法论 skill:探索式测试(Explore It!)、Beautiful Testing、Effective Software Testing、MFQ&PPDCS 测试分析设计、自动化测试最佳实践。"
+        "en": "Testing methodology skills distilled from six classics: Explore It!, Beautiful Testing, Effective Software Testing, How Google Tests Software, MFQ&PPDCS test analysis and design, and automation testing best practices.",
+        "zh-CN": "六本测试经典蒸馏的测试方法论 skill:探索式测试(Explore It!)、Beautiful Testing、Effective Software Testing、Google 软件测试之道、MFQ&PPDCS 测试分析设计、自动化测试最佳实践。"
       },
       "displayName": "Testing Methodology",
       "displayName_i18n": {
@@ -62,11 +62,11 @@
     {
       "name": "engineering-management",
       "source": "./plugins/engineering-management",
-      "version": "1.0.0",
-      "description": "13 cybernetic project-management capabilities derived from Qian Xuesen's Engineering Cybernetics.",
+      "version": "1.1.0",
+      "description": "Engineering management skills: cybernetic project management (Qian Xuesen), managing small teams of under ten (Google high-performance practices), and the P9 Work Method (technical depth, architecture and leadership).",
       "description_i18n": {
-        "en": "13 cybernetic project-management capabilities derived from Qian Xuesen's Engineering Cybernetics.",
-        "zh-CN": "钱学森《工程控制论》蒸馏出的 13 项控制论项目管理能力。"
+        "en": "Engineering management skills: cybernetic project management (Qian Xuesen), managing small teams of under ten (Google high-performance practices), and the P9 Work Method (technical depth, architecture and leadership).",
+        "zh-CN": "工程管理三书蒸馏:钱学森《工程控制论》控制论项目管理、《如何管理10人以下小团队》谷歌高绩效团队法、《P9 工作法》技术硬实力/架构力/领导力。"
       },
       "displayName": "Engineering Management",
       "displayName_i18n": {

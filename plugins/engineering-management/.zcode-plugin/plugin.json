@@ -1,7 +1,7 @@
 {
   "name": "engineering-management",
-  "version": "1.0.0",
-  "description": "钱学森《工程控制论》蒸馏出的 13 项控制论项目管理能力。",
+  "version": "1.1.0",
+  "description": "工程管理三书蒸馏:钱学森《工程控制论》控制论项目管理、《如何管理10人以下小团队》谷歌高绩效团队法、《P9 工作法》技术硬实力/架构力/领导力。",
   "author": {
     "name": "Fen9pi-Max",
     "url": "https://github.com/Fen9pi-Max"
